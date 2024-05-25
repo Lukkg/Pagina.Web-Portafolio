@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucas | Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1b1b1b;
+            color: #ffffff;
+        }
+        .container {
+            width: 80%;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .section-title {
+            font-size: 1.5em;
+            border-bottom: 2px solid #8b4513;
+            padding-bottom: 10px;
+            margin-top: 50px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            margin: 0;
+            font-size: 1.2em;
+            color: #8b4513;
+        }
+        .content p {
+            margin: 5px 0;
+        }
+        .skills, .education, .experience {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skill, .education-item, .experience-item {
+            flex: 1 1 45%;
+            margin: 10px;
+            background-color: #333;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        .contact-form {
+            background-color: #333;
+            padding: 25px;
+            border-radius: 13px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: calc(100% - 20px);
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 20px;
+            background-color: #8b4513;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Lucas Ramírez Franco</h1>
+            <p>Administrador | Comerciante | Técnico en sistemas</p>
+        </header>
+
+        <section>
+            <div class="section-title">Perfil</div>
+            <div class="content">
+                <p>Soy un joven dedicado con experiencia en Administración, comercio y sistemas generalizados.
+                    Apasionado por crear y ayudar de forma innovadora.
+                     Siempre en busca de aprender y mejorar mis habilidades.</p>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Habilidades</div>
+            <div class="skills">
+                <div class="skill">
+                    <h2>Administración</h2>
+                    <p>Supervisión, control de caja, revisión de inventario, sistema y pedido de mercancia</p>
+                </div>
+                <div class="skill">
+                    <h2>Comerciante</h2>
+                    <p>Atención al cliente, personalización de experiencias y solución de problemas</p>
+                </div>
+                <div class="skill">
+                    <h2>Idiomas</h2>
+                    <p>Español (nativo), Inglés (intermedio)</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Experiencia</div>
+            <div class="experience">
+                <div class="experience-item">
+                    <h2>Administrador de By LUNA Perfumería</h2>
+                    <p>Noviembre 2023 - Actualmente</p>
+                    <p>Responsabilidades:</p>
+                    <ul>
+                        <li>Supervición de trabajadores y control de sistema.</li>
+                        <li>Diseñador de marketing, control y gestión de redes sociales de la empresa.</li>
+                        <li>Implementación de nuevas estrategias de mercado.</li>
+                        <li>Control de inventario y encargado de pedidos de mercancia.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h2>Trabajador en By LUNA Perfumería</h2>
+                    <p>01 Mayo 2024 - Actualmente</p>
+                    <p>Responsabilidades:</p>
+                    <ul>
+                        <li>Atención al cliente personalizada para encontrar su mejor fragancia.</li>
+                        <li>Atención especializada de creación de fragancias.</li>
+                        <li>Manejo de sistema, de caja y control de inventario.</li>
+                    </ul>
+                </div>
+                <div class="experience-item">
+                    <h2>Trabajador en Bambinos Pizza</h2>
+                    <p>Mayo 2024 - Actualmente</p>
+                    <p>Responsabilidades:</p>
+                    <ul>
+                        <li>Atención al cliente.</li>
+                        <li>Entrega de pedidos a domicilio.</li>
+                        <li>Manejo de caja, WhatsApp Business y gestión de pedidos en curso.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Educación</div>
+            <div class="education">
+                <div class="education-item">
+                    <h2>Media técnica en sistemas</h2>
+                    <p>Institución Educativa Presbitero Abraham Jaramillo | 2019 - 2021</p>
+                </div>
+                <div class="education-item">
+                    <h2>Técnología en desarrollo de software</h2>
+                    <p>Istitución Universitaria Digital de Antioquia | 2020 - 2024</p>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="section-title">Contacto</div>
+            <div class="contact-form">
+                <form action="https://formspree.io/f/mdoqvpzd" method="post">
+                    <input type="text" name="name" placeholder="Tu Nombre" required>
+                    <input type="email" name="email" placeholder="Tu Email" required>
+                    <textarea name="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
